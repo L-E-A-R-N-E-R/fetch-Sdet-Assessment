@@ -1,5 +1,7 @@
 # fetch-Sdet-Assessment
 
+### Link to the problem statement: https://fetch-hiring.s3.amazonaws.com/SDET/Fetch_Coding_Exercise_SDET.pdf
+
 My project folder size was larger than 25MB due to which, I could not upload it on GitHub. You can download the project zip file from the below link. Apologies for any inconvenience caused.
 
 https://drive.google.com/file/d/1JixUyfg1qw_XlGCkBEw76i7D1q_Vsv_k/view?usp=drive_link
@@ -7,7 +9,6 @@ https://drive.google.com/file/d/1JixUyfg1qw_XlGCkBEw76i7D1q_Vsv_k/view?usp=drive
 Note: In case you want to save time, or are unable to run the project due to some build issues, here is a short video where I demonstrate the entire project in a screen recording.
 
 https://drive.google.com/file/d/1T4ltkFgAbdbNV78R9f-mcFtu1MpNyTiy/view?usp=sharing
-
 
 For simplicity, the driver used for automation is Chrome. 
 
