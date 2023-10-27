@@ -69,13 +69,13 @@ For Mac: https://docs.docker.com/desktop/install/mac-install/
 
 6. Execute this command in your terminal to compile your Java program
 	
-	"javac -cp lib\* src\App.java"
+	"javac -cp lib\\* src\App.java"
 
 	Note: Make sure you are in the GoldBar directory when you execute this command
 
 7. Execute this command in your terminal to run your Java program
 
-	"java -cp “src;lib\*” App"
+	"java -cp “src;lib\\*” App"
 
 8. After a few seconds, you should see the following output on your screen
 
