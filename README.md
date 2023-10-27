@@ -9,8 +9,8 @@ For simplicity, the driver used for automation is Chrome.
 
 # This project requires the following tools to run properly in any system
 
-JDK 11
-Docker Desktop
+1. JDK 11
+2. Docker Desktop
 
 # In case you don’t have JDK 11 installed, kindly refer to these short clips
 
