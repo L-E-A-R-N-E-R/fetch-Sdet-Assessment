@@ -81,8 +81,10 @@ For Mac: https://docs.docker.com/desktop/install/mac-install/
 
 ![image](https://github.com/L-E-A-R-N-E-R/fetch-Sdet-Assessment/assets/41851792/8689ee84-90d0-48ef-91d6-98dcbd7f4fd7)
 
-Note: In order to witness the full automation on the http://sdetchallenge.fetch.com/ website in action, visit the link http://localhost:7900/?autoconnect=1&resize=scale&password=secret quickly after executing the java command in step 7.
+Note: In order to witness the full automation of the algorithm on http://sdetchallenge.fetch.com/ website in action, visit the link http://localhost:7900/?autoconnect=1&resize=scale&password=secret quickly after executing the java command in step 7.
 
+9. After step 8, if you want to run the program again, don't execute the command from step 7 instantly. First, delete the container from the Docker desktop that is actively running, (don't delete the Selenium image that was pulled from step 2), and repeat the instructions from step 3.
+   
 # For Mac user
 
 1. Open the Docker desktop and make sure the Docker engine is running (The status is shown on the bottom left part of the screen)
@@ -117,5 +119,6 @@ https://github.com/SeleniumHQ/docker-selenium#experimental-mult-arch-aarch64armh
 
  ![image](https://github.com/L-E-A-R-N-E-R/fetch-Sdet-Assessment/assets/41851792/86bb320a-d294-4bce-ab29-4b29dfd19a9b)
 
-Note: In order to witness the full automation on the http://sdetchallenge.fetch.com/ website in action, visit the link http://localhost:7900/?autoconnect=1&resize=scale&password=secret quickly after executing the java command in step 6.
+Note: In order to witness the full automation of the algorithm on http://sdetchallenge.fetch.com/ website in action, visit the link http://localhost:7900/?autoconnect=1&resize=scale&password=secret quickly after executing the java command in step 6.
 
+8. After step 7, if you want to run the program again, don't execute the command from step 6 instantly. First, delete the container from the Docker desktop that is actively running, (don't delete the Selenium image that was pulled from step 2), and repeat the instructions from step 3.
