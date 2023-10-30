@@ -21,6 +21,10 @@ For simplicity, the driver used for automation is Chrome.
 
 1. For Windows: https://www.youtube.com/watch?v=23FrsQiCBhA
 
+Here is the JDK 11 download link https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html
+You will be prompted to create an account on Oracle in order to download the JDK 11 zip file. 
+After this, you will need to set the environment variables which I highly recommend to refer to the YouTube video for that. It's a very short clip.
+
 2. For Mac
 
 To download jdk: https://www.youtube.com/watch?v=bUKuKhywaiI&t=14s
