@@ -93,32 +93,38 @@ Note: In order to witness the full automation of the algorithm on http://sdetcha
 
 2. Open the terminal and execute the command
 
+   *docker pull selenium/standalone-chrome*
+
+   This might take a minute or two, depending on your internet connection. This command will pull the required selenium image from the docker hub.
+
+3. Then execute the command in the terminal
+
 *$ docker run --rm -it -p 4444:4444 -p 5900:5900 -p 7900:7900 --shm-size 2g seleniarm/standalone-chromium:latest*
 
 Note: Mac users may have different architectures for which the docker run command can differ. Please refer to the below link for further assistance
 
 https://github.com/SeleniumHQ/docker-selenium#experimental-mult-arch-aarch64armhfamd64-images
 
-3. Download the project zip file from Google Drive link.
+4. Download the project zip file from Google Drive link.
 
-4. Open another terminal and navigate to the working directory of the project called GoldBar
+5. Open another terminal and navigate to the working directory of the project called GoldBar
 
    cd GoldBar
 
-5. Execute this command in your terminal to compile your Java program
+6. Execute this command in your terminal to compile your Java program
 
 	javac -cp "lib/*" src/App.java
 
   Note: Make sure you are in the GoldBar directory when you execute this command
 
-6. Execute this command in your terminal to run your Java program
+7. Execute this command in your terminal to run your Java program
 
 	java -cp “src:lib/*” App
 
-7. After a few seconds, you should see the following output on your screen
+8. After a few seconds, you should see the following output on your screen
 
  ![image](https://github.com/L-E-A-R-N-E-R/fetch-Sdet-Assessment/assets/41851792/86bb320a-d294-4bce-ab29-4b29dfd19a9b)
 
-Note: In order to witness the full automation of the algorithm on http://sdetchallenge.fetch.com/ website in action, visit the link http://localhost:7900/?autoconnect=1&resize=scale&password=secret quickly after executing the java command in step 6.
+Note: In order to witness the full automation of the algorithm on http://sdetchallenge.fetch.com/ website in action, visit the link http://localhost:7900/?autoconnect=1&resize=scale&password=secret quickly after executing the java command in step 7.
 
-8. After step 7, if you want to run the program again, don't execute the command from step 6 instantly. First, delete the container from the Docker desktop that is actively running, (don't delete the Selenium image that was pulled from step 2), and repeat the instructions from step 3.
+9. After step 8, if you want to run the program again, don't execute the command from step 7 instantly. First, delete the container from the Docker desktop that is actively running, (don't delete the Selenium image that was pulled from step 2), and repeat the instructions from step 3.
